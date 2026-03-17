@@ -15,8 +15,8 @@ elif [[ $# -eq 3 ]]; then
 	if [[ ! ($2 =~ $short_version_re || $2 =~ $long_version_re || $3 =~ $short_version_re || $3 =~ $long_version_re) ]]; then
 		echo $help_str
 	fi
-	first_version = $2
-	second_version = $3
+	first_version=$2
+	second_version=$3
 else
 	echo "$help_str"
 	exit
