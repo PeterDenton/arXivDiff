@@ -9,5 +9,8 @@ to compare v1 and v2, or
 
 for some arbitrary versions.
 
+### Dependencies
+wget, latexdiff, pdflatex
+
 ### Misc
 This script was inspired by Timon Emken's [comparxiv](https://github.com/temken/comparxiv).
